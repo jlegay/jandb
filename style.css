@@ -1,0 +1,14 @@
+h1 {
+  font-family: 'Tangerine', cursive;
+  color: rgb(53, 129, 132);
+  text-align: center;
+  font-size: 8rem;
+}
+
+#date {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 200;
+  color: rgb(53, 129, 132);
+  text-align: center;
+  font-size: 2rem;
+}
