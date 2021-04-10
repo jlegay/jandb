@@ -12,3 +12,12 @@ h1 {
   text-align: center;
   font-size: 2rem;
 }
+
+#image-programme {
+  width: 100%;
+}
+
+#text-div {
+  display: flex;
+  align-items: center;
+}
