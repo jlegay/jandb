@@ -22,7 +22,7 @@ h1 {
   align-items: center;
 }
 
-#custom-btn {
+.custom-btn {
   background-color: rgb(53, 129, 132);
   border: none;
   color: white;
