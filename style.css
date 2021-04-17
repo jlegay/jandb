@@ -21,3 +21,12 @@ h1 {
   display: flex;
   align-items: center;
 }
+
+#custom-btn {
+  background-color: rgb(53, 129, 132);
+  border: none;
+  color: white;
+  text-align: center;
+  font-family: 'Tangerine', cursive;
+  font-size: 2rem;
+}
