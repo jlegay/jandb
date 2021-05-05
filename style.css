@@ -17,9 +17,15 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+.programme-full {
+  display: flex;
+  justify-content: space-around;
+}
+
 #image-programme {
+  height: 85vh;
+  width: auto;
   padding: 2rem;
-  width: 100%;
 }
 
 .custom-btn {
@@ -52,6 +58,7 @@ body {
   background-size: cover;
   background-position: center;
   padding: 150px 0;
+  width: 100%;
 }
 
 .banner h1 {
@@ -78,13 +85,10 @@ body {
   background: white;
 }
 
-.navbar-lewagon .navbar-collapse {
+/*.navbar-lewagon .navbar-collapse {
   flex-grow: 0;
-}
+}*/
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
 
 #jb {
   text-decoration: none;
@@ -96,7 +100,10 @@ body {
 }
 
 #text-div {
-  text-align: justify;
+/*  text-align: justify;*/
+  display: flex;
+  align-items: center;
+  padding: 7rem;
 }
 
 #text-div ul{
@@ -116,9 +123,20 @@ body {
 }
 
 
-// Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
+  .programme-full {
+    display: block;
+  }
 
+  #image-programme {
+    padding: 2rem;
+    width: 100%;
+    height: auto;
+  }
+
+  #text-div {
+    padding: 0;
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -128,8 +146,19 @@ body {
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+  .programme-full {
+    display: flex;
+    justify-content: space-around;
+  }
 
+  #image-programme {
+    height: 85vh;
+    width: auto;
+  }
 
+  #text-div {
+    padding: 7rem;
+  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -139,7 +168,8 @@ body {
   }
 
   #image-programme {
-    height: 50rem;
+    padding-left: 2rem;
+    height: 85vh;
     width: auto;
   }
 
@@ -147,10 +177,14 @@ body {
     display: flex;
     align-items: center;
   }
+
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-
+  #image-programme {
+    height: 85vh;
+    width: auto;
+  }
 }
 
