@@ -1,4 +1,4 @@
-h1 {
+/*h1 {
   font-family: 'Tangerine', cursive;
   color: rgb(53, 129, 132);
   text-align: center;
@@ -20,13 +20,68 @@ h1 {
 #text-div {
   display: flex;
   align-items: center;
-}
+}*/
 
 .custom-btn {
   background-color: rgb(53, 129, 132);
-  border: none;
+  border: 1px solid rgb(53, 129, 132);
   color: white;
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 11px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.custom-btn:hover {
+  background-color: white;
+  border: 1px solid rgb(53, 129, 132);
+  color: rgb(53, 129, 132);
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 11px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  margin-top: 1rem;
+  text-decoration: none;
+  transition-duration: 0.7s;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
   font-family: 'Tangerine', cursive;
-  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 5rem;
+}
+
+.banner h2 {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 19px;
+  font-weight: lighter;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.navbar-lewagon {
+  justify-content: space-between;
+  background: white;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
 }
