@@ -122,7 +122,6 @@ body {
   margin-bottom: 1rem;
 }
 
-
 @media (min-width: 100px) and (max-width: 575px) {
   .programme-full {
     display: block;
@@ -146,10 +145,10 @@ body {
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  .programme-full {
+/*  .programme-full {
     display: flex;
     justify-content: space-around;
-  }
+  }*/
 
   #image-programme {
     height: 85vh;
